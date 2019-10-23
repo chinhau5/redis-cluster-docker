@@ -1,4 +1,4 @@
-FROM redis:5.0.6
+FROM redis:5.0.6-alpine
 
 COPY run.sh /run.sh
 
